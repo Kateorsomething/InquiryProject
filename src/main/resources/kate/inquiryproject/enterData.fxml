@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="160" prefWidth="200" styleClass="pane" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kate.inquiryproject.controllers.EnterData">
+   <children>
+      <Button layoutX="77.0" layoutY="97.0" mnemonicParsing="false" onAction="#enterData" stylesheets="@style.css" text="enter" />
+      <TextField fx:id="sampleP" layoutX="20.0" layoutY="17.0" prefWidth="160.0" promptText="sample proportion" stylesheets="@style.css" />
+      <TextField fx:id="sampleN" layoutX="20.0" layoutY="53.0" prefWidth="160.0" promptText="sample n" stylesheets="@style.css" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="2.0" layoutX="20.0" layoutY="43.0" stroke="#e6e5e8" strokeType="INSIDE" width="160.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="2.0" layoutX="20.0" layoutY="79.0" stroke="#e6e5e8" strokeType="INSIDE" width="160.0" />
+      <Text fx:id="alert" opacity="0" fill="#a11313" layoutX="44.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="please enter valid data" />
+   </children>
+</AnchorPane>

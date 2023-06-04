@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="200.0" prefWidth="320.0" styleClass="pane" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kate.inquiryproject.controllers.FirstLaunch">
+   <children>
+      <Button id="specialbutton" fx:id="createNewChart" layoutX="20.0" layoutY="130.0" mnemonicParsing="false" onAction="#createNewChart" stylesheets="@style.css" text="create new chart" />
+      <Button fx:id="loadSavedChart" layoutX="132.0" layoutY="130.0" mnemonicParsing="false" onAction="#loadSavedChart" stylesheets="@style.css" text="load last save" />
+      <Text fill="#e6e5e8" layoutX="36.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="welcome :))">
+         <font>
+            <Font name="Britannic Bold" size="32.0" />
+         </font></Text>
+      <Button layoutX="232.0" layoutY="130.0" mnemonicParsing="false" onAction="#uploadFile" text="upload file" />
+   </children>
+</AnchorPane>
