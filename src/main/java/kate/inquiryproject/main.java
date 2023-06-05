@@ -35,8 +35,12 @@ public class main extends Application {
     }
 
     public static void main(String[] args) {
-
         DatabaseHandler databaseHandler = new DatabaseHandler();
+        String stm = "CREATE TABLE EXAMPLE(" +
+                "P DOUBLE," +
+                "N DOUBLE)";
+        databaseHandler.getHandler().executeAction(stm);
+
         launch();
         DatabaseHandler.getHandler().closeConnection();
     }
